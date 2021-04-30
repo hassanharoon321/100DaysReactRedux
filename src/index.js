@@ -33,6 +33,7 @@ const App = () => {
                <p>loremdnkasnkldsdjjkdnjansdjansdjandj
                </p>
             </Placeholder>
+            {console.log("hello")}
         </div>
     )
 }
