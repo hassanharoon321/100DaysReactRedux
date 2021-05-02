@@ -6,11 +6,12 @@ import Placeholder from "./Components/Placeholder";
 
 import faker from "faker";
 import ApprovalCard from "./Components/ApprovalCard";
+import Seasons from "./Seasons/Seasons";
 
 const App = () => {
     return (
         <div className="ui container comments">
-            <ApprovalCard>
+            {/* <ApprovalCard>
                 <CommentDetails name="hassan" timeAgo="Today at 4:45PM" image={faker.image.avatar()} comment="Hello" />
             </ApprovalCard>
             <ApprovalCard>
@@ -33,7 +34,10 @@ const App = () => {
                <p>loremdnkasnkldsdjjkdnjansdjansdjandj
                </p>
             </Placeholder>
-            {console.log("hello")}
+            {console.log("hello")} */}
+            {/* -------------------------Seasons STarts --------------------------- */}
+
+            <Seasons/>
         </div>
     )
 }
