@@ -6,7 +6,11 @@ class Seasons extends React.Component {
       (position) => console.log(position),
       (err) => console.log(err)
     );
-    return <div>latitude :</div>;
+    return (
+      <div>
+        <h1>Latitude:</h1>
+      </div>
+    );
   }
 }
 
