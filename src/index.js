@@ -37,9 +37,13 @@ const App = () => {
             {console.log("hello")} */}
             {/* -------------------------Seasons STarts --------------------------- */}
 
-            <Seasons/>
+            <Seasons />
         </div>
     )
 }
 
 ReactDOM.render(<App />, document.querySelector("#root"))
+
+// -----------------------------------------------
+//5.5 Starts
+//-------------------------------------------------
