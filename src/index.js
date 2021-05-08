@@ -35,6 +35,7 @@ const App = () => {
                </p>
             </Placeholder>
             {console.log("hello")} */}
+            {console.log("hello")} }
             {/* -------------------------Seasons STarts --------------------------- */}
 
             <Seasons />
