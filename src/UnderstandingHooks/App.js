@@ -2,7 +2,9 @@ import React,{useState} from 'react'
 import Accordion from './Components/Accordion'
 import Dropdown from './Components/Dropdown'
 import Search from './Components/Search'
+import Translate from './Components/Translate'
 import Counter from './Counter'
+import GetRequest from './GetRequest'
 
 function App() {
 
@@ -35,7 +37,9 @@ function App() {
         <div>
             {/* <Accordion items={items}/> */}
             {/* <Search/> */}
-            <Dropdown options={options} selected={selected} onSelectedChange={setSelected}/>
+            {/* <Dropdown options={options} selected={selected} onSelectedChange={setSelected}/> */}
+            {/* <Translate/> */}
+            <GetRequest/>
         </div>
     )
 }
